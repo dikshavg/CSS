@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color gradients</title>
+    <style>
+     #para1{
+            height: 200px;
+            background: red;
+            background-image:linear-gradient(red,yellow,green) ;
+        }
+        #para2{
+            height: 200px;
+          
+            background-image:linear-gradient( red,yellow,green,black,blue,purple,violet);
+        }
+        #para3{
+            height: 200px;
+            background-image:linear-gradient(red 20% ,brown ,green ,blue);
+        }
+        #para4 {
+            width:100%;
+            background-image: linear-gradient(to right,orange,yellow,green,blue);
+            color:darkgrey;
+            text-align:right;
+        }
+        #para5{
+            height: 200px;
+            width: 200px;
+            background-image:  radial-gradient(ellipse,orange 30%,yellow,green);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Linear Gradients - Multiple Color Stops</h1>
+        <p><strong>Note:</strong>Color stops are spaced evenly when no parents are specified.</p>
+        <h2>3 Color Stops(evenly spaced):</h2>
+        <div id="para1"></div><br>
+        <h2>7 Color Stops(evenly spaced):</h2>
+        <div id="para2"></div><br>
+        <h2>3 Color Stops(not evenly spaced):</h2>
+        <div id="para3"></div><br>
+        <div id="para4">Rainbow Background</div>
+        <h2>Radial Gradient-Evenly Spaced Color Stops</h2>
+        <div id="para5"></div>
+
+
+</body>
+</html>
