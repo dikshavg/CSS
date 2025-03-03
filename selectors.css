@@ -1,0 +1,26 @@
+
+/*Universal Selector*/
+*{
+    text-align:center ;
+    color: red;
+}
+/*ID Selector*/
+#para1{
+    text-align: left;
+    color: blue;
+}
+/*Class Selector*/
+.heading2 {
+    text-align: center;
+    color: hotpink;
+}
+/*Element Selector*/
+h3 {
+    text-align: center;
+    color: chocolate;
+}
+/*Grounping Selector--*/
+h4,h2,p {
+    text-align: center;
+    color: green;
+}
