@@ -1,0 +1,20 @@
+#d1{
+    background-color: red;
+}
+.d2{
+    background-color: green;
+}
+section{
+    background-color: hotpink;
+}
+div,footer,aside,article{
+    background-color: aqua;
+    border: 2px solid;
+    height: 50px;
+}
+*{
+    background-color: gray;
+}
+body{
+    background-color: yellow;
+}
