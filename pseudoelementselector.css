@@ -1,0 +1,31 @@
+p::first-letter{
+    background-color: red;
+}
+p::first-line{
+    background-color: yellow;
+}
+p::after{
+    content: "hello webtech students";
+    content: '🥰😁🤣😂😊😒😍😘😉🤔';
+    content: url("https://i0.wp.com/www.southsideblooms.com/wp-content/uploads/2023/01/pexels-lisa-2106037.jpg?w=1200&ssl=1")
+}
+p::before{
+    content: url("https://t4.ftcdn.net/jpg/07/53/20/97/360_F_753209717_wWKRy0aCeOvaGry8oEsRTlL2NK2Au4Zt.jpg")
+}
+section::selection{
+    background-color: hotpink;
+    color: darkblue;
+}
+ol>li::marker{
+    content: '😘';
+}
+ol>li+li::marker{
+    content: '😁';
+}
+ol>li+li+li::marker{
+    content: '👌';
+}
+input::placeholder{
+    color: aqua;
+    background-color: red;
+}

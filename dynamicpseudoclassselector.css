@@ -1,0 +1,37 @@
+a:link{
+    color: aqua;
+}
+a:active{
+    color: hotpink;
+}
+a:visited{
+    color: orangered;
+}
+#inp:checked{
+    background-color: rebeccapurple;
+    color: greenyellow;
+    accent-color: red;
+    height: 50px;
+    width: 50px;
+}
+#inp2:checked{
+    accent-color:  blue;
+    height: 50px;
+    width: 50px;
+}
+#inp3:focus{
+    color: chocolate;
+    background-color: aqua;
+}
+div{
+    border: 2px solid;
+    height: 150px;
+    width: 150px;
+    background-color: cornflowerblue;
+}
+div:hover{
+    border-radius: 50%;
+    background-color: red;
+    cursor: pointer;
+
+}
