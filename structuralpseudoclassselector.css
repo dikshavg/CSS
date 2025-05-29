@@ -1,0 +1,31 @@
+div>:first-child{
+    background-color: red;
+} 
+
+    div>:last-child{
+    background-color: green;
+ } 
+
+    div>h2:first-of-type{
+    background-color: aqua;
+}  
+
+    div>h1:last-of-type{
+    background-color: orange;
+}  
+
+   div>h1:nth-of-type(2){
+    background-color: plum;
+} 
+
+   div>h1:nth-child(even){
+    background-color: brown;
+} 
+
+   div>h1:nth-child(odd){
+    background-color: greenyellow;
+} 
+
+   div>h1:nth-child(6){
+    background-color: blue;
+}
