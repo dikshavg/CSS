@@ -1,0 +1,21 @@
+p{
+    background-color: darksalmon;
+    background-image: url('https://cdn.pixabay.com/photo/2022/09/05/16/17/baltic-sea-7434540_640.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+img{
+    height: 500px;
+    width: 500px;
+    /* filter: blur(5px); 
+    filter: brightness(100%); 
+    filter: contrast(200%); 
+    filter: drop-shadow(80px 80px 10px red); 
+    */
+filter: grayscale(100);
+filter: hue-rotate(100deg);
+filter: invert(500%);
+filter: opacity(200%);
+filter: saturate(10%);
+filter: sepia(20%);
+}
