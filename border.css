@@ -1,0 +1,42 @@
+div{
+    border: 2px solid;
+    height: 150px;
+    width: 150px;
+    border-top: 5px dashed red;
+    border-top-width: 10px;
+    border-top-style: double;
+    border-top-color: aqua;
+    border-left-width: 8px;
+    border-left-style: dotted;
+    border-left-color: blue;
+    border-bottom-width: 20px;
+    border-bottom-style: groove;
+    border-bottom-color: darkmagenta;
+    border-right-width: 15px;
+    border-right-style: dashed;
+    border-right-color: orange;
+
+}
+section{
+    border: 15px solid;
+    height:150px ;
+    width: 150px;
+    border-color: red;
+    border-style:dashed;
+    border-style:dotted;
+    border-style:double;
+    border-style:groove;
+    border-style:inset;
+    border-style:outset;
+}
+aside{
+    border: 5px solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    /* border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%; */
+    border-top-left-radius: 45%;
+    border-top-left-radius:45%;
+
+}
