@@ -1,0 +1,45 @@
+div{
+    border: 2px solid;
+    height: 150px;
+    width: 150px;
+}
+#d1{
+    background: linear-gradient(red,green,hotpink,yellow,blue,orange,black,white);
+}
+#d2{
+    background: linear-gradient( to bottom, red,green,hotpink,yellow,blue,orange,black,white);
+}
+#d3{
+    background: linear-gradient(to top, red,green,hotpink,yellow,blue,orange,black,white);
+}
+#d4{
+    background: linear-gradient(to right, red,green,hotpink,yellow,blue,orange,black,white);
+}
+#d5{
+    background: linear-gradient(to left, red,green,hotpink,yellow,blue,orange,black,white);
+}
+#d6{
+    background-image: radial-gradient(aqua,red,white,hotpink,green,orange,purple,yellow);
+}
+#d7{
+    background-image: radial-gradient(circle, aqua,red,white,hotpink,green,orange,purple,yellow);
+}
+#d8{
+    background-image: radial-gradient(closest-corner at 60% 50%, aqua,red,white,hotpink,green,orange,purple,yellow);
+}
+#d9{
+    background-image: radial-gradient(closest-side at 60% 50%, aqua,red,white,hotpink,green,orange,purple,yellow);
+}
+#d10{
+    background-image: radial-gradient(farthest-corner at 60% 50%, aqua,red,white,hotpink,green,orange,purple,yellow);
+}
+#d11{
+    background-image: radial-gradient(farthest-side at 60% 50%, aqua,red,white,hotpink,green,orange,purple,yellow);
+}
+#d12{
+    background: conic-gradient(red,aqua,yellow,green,purple,white,orange,blue);
+    border-radius: 50%;
+}
+#d13{
+    background-image: linear-gradient(50deg,red,aqua,yellow,green,purple,white,orange,blue);
+}
