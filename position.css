@@ -1,0 +1,34 @@
+section{
+    border: 2px solid;
+    height: 350px;
+    width: 450px;
+    /* position: relative; */
+}
+aside,div{
+    border: 2px solid;
+    height: 150px;
+    width: 200px;
+    background-color: aqua;
+}
+aside{
+   /* position: stati c; */
+   /* top: 10%;
+   bottom: 10%;
+   left: 10%;
+   right: 10%;
+   position: absolute;
+   left: 10%;
+   right: 0%;
+   top: 0%; */
+   background-color: hotpink;
+   /* left: 5%; */
+}
+nav{
+    border: 2px solid;
+    height: 100px;
+    background-color: yellow;
+    position: sticky;
+ /* top: 0%; */
+    position: fixed;
+width:80%;
+}
