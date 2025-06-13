@@ -1,0 +1,60 @@
+div{
+    border: 2px solid;
+    height: 200px;
+    width: 400px;
+    overflow: hidden;
+    overflow: scroll;
+    /* overflow: visible; */
+}
+section{
+    border: 2px solid;
+    height: 300px;
+    width: 500px;
+}
+aside{
+     border: 2px solid;
+     height: 150px;
+     width: 150px;
+}
+#d1{
+    background-color: red;
+
+}
+#d2{
+     background-color: aqua;
+     display: inline-flex;
+}
+#d3{
+    background-color: hotpink;
+    display: inline-flex;
+}
+#d4{
+    background-color: black;
+    display: inline-flex;
+}
+#d5{
+    display: inline-flex;
+    border: 2px solid;
+     /* height: 40px; */
+     width: 100%;
+} 
+#d6{
+    display: inline-block;
+}
+article{
+    border: 2px solid;
+    height: 150px;
+    width: 150px;
+    background-color: greenyellow;
+    /* display: block;
+    display: none;
+    visibility: visible;
+    visibility: hidden; */
+}
+main{
+    border: 2px solid;
+    height: 150px;
+    width: 150px;
+    background-color: gold;
+   opacity:0.3;
+}
