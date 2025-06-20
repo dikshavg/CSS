@@ -1,0 +1,52 @@
+div{
+    border: 2px solid;
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    transition-property: background-color height 5s width 10s ;
+
+}
+div:hover{
+    transform: translateX(300px);
+    transition-duration: 5s;
+    background-color: chartreuse;
+    height: 200px;
+    width: 200px;
+    /* transition-delay: 2s; */
+    transition-timing-function: linear;
+    transition-timing-function: ease;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    transition-timing-function: ease-in-out;
+    transition-timing-function: ease all;
+}
+section{
+    border: 2px solid;
+    height: 150px;
+    width: 150px;
+}
+section:hover{
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform: translateX(200px);
+    transition-duration: 5s;
+    animation-timing-function: ease-in;
+    transition-timing-function: ease-in;
+}
+
+@keyframes box{
+    0%{background-color: red; border-radius: 50%;}
+    10%{background-color: greenyellow; border-radius: 30%;}
+    20%{background-color: blueviolet; border-radius: 20%;}
+    50%{background-color: aqua; border-radius: 50%;}
+    70%{background-color: hotpink; border-radius: 25%;}
+    100%{background-color: yellow; border: 50%;}
+}
+aside{
+ font-size: 100px;
+    background: linear-gradient(to left, red,green,blueviolet,aqua,hotpink);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+
+}
